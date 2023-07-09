@@ -52,27 +52,27 @@ while(true)
 
 //int thirdnumber(int a)_
   
-        while(true )
-        {
-           Console.WriteLine("Enter number");
+        
+        Console.WriteLine("Enter number");
         int number =Convert.ToInt32(Console.ReadLine());
 
     if(number<100)
         {
         Console.WriteLine("There is no third digit");
         }
-    else if(number>1000)
-        {
-            number=number/10;
-        }
         else
         {
-        number=number%10;
-        Console.WriteLine(number);
-        break;
+           while(number>1000)
+           {
+            number=number/10;
+           }
+            number=number%10;
+            Console.WriteLine(number);
+            
         }
-    }
+        
+    
 
-    22
+    
 
     
